@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aztrain06contain", "aztrain06contain\aztrain06contain.csproj", "{60213E6E-1C70-4BF4-807D-ABF19F7364AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60213E6E-1C70-4BF4-807D-ABF19F7364AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60213E6E-1C70-4BF4-807D-ABF19F7364AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60213E6E-1C70-4BF4-807D-ABF19F7364AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60213E6E-1C70-4BF4-807D-ABF19F7364AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0D38961-146C-47D8-9C55-51EC274D991C}
+	EndGlobalSection
+EndGlobal
