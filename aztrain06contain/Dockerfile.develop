@@ -1,0 +1,17 @@
+FROM mcr.microsoft.com/dotnet/core/sdk:2.1
+ARG BUILD_CONFIGURATION=Debug
+ENV ASPNETCORE_ENVIRONMENT=Development
+ENV DOTNET_USE_POLLING_FILE_WATCHER=true
+EXPOSE 80
+
+WORKDIR /src
+COPY ["aztrain06contain/aztrain06contain.csproj", "aztrain06contain/"]
+
+RUN dotnet restore "aztrain06contain/aztrain06contain.csproj"
+COPY . .
+WORKDIR "/src/aztrain06contain"
+RUN dotnet build --no-restore "aztrain06contain.csproj" -c $BUILD_CONFIGURATION
+
+RUN echo "exec dotnet run --no-build --no-launch-profile -c $BUILD_CONFIGURATION --" > /entrypoint.sh
+
+ENTRYPOINT ["/bin/bash", "/entrypoint.sh"]
