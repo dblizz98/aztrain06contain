@@ -25,7 +25,10 @@
     },
     "Azure Dev Spaces": {
       "commandName": "AzureDevSpaces",
-      "launchBrowser": true
+      "launchBrowser": true,
+      "resourceGroup": "azkubernetes",
+      "aksName": "aztrainkub",
+      "subscriptionId": "faac52be-4ad4-4637-836c-292b8e15d8dd"
     },
     "Docker": {
       "commandName": "Docker",

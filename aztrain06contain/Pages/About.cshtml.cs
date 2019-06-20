@@ -12,7 +12,7 @@ namespace aztrain06contain.Pages
 
         public void OnGet()
         {
-            Message = "ContainerTest1.";
+            Message = "ContainerTest2.";
         }
     }
 }
